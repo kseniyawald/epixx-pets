@@ -94,8 +94,8 @@ h1 {
 }
 
 .contacts {
-	text-align: left;
-}
+	display: flex;
+	flex-wrap: wrap;
 
 .footer-menu ul li a {
 	text-decoration: none;
@@ -112,4 +112,9 @@ h1 {
 	width: 40px;
 	display: inline-block;
 	box-sizing: border-box;
+}
+
+.our-breeds {
+	display: flex;
+	flex-wrap: wrap;
 }
