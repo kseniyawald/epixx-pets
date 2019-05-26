@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
 body {
 	background-color: #ede9e0;
 	text-align: center;
 	vertical-align: middle;
+	font-family: Roboto;
 }
 
 .wrapper {
@@ -25,6 +29,7 @@ body {
 .header-img {
 	display: flex;
 	align-items: flex-start;
+	align-content: flex-start;
 	margin: 0;
 	padding: 0;
 
@@ -38,9 +43,10 @@ body {
 
 .main-moto {
 	display: flex;
-	align-items: flex-end;
+	align-items: flex-start;
 	width: 550px;
 	text-align: left;
+	padding: 20px;
 }
 
 a {
@@ -49,23 +55,25 @@ a {
 }
 
 .logo {
+	
 	flex-basis: 101px;
+	margin: 0px;
 }
 
 .nav-main {
-	display: flex;
+	display: flex;	
 	flex-grow: 1;
-	
-
+	justify-content: flex-end;
 }
 
 .nav-main__list {
 	list-style: none;
-	margin: 0;
+	margin: 10;
 	padding: 0;
 	display: flex;
 	justify-content: flex-end;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 .nav-main__item {
@@ -75,7 +83,10 @@ a {
 
 .phone {
 	display: flex;
-	padding-left: 15px;
+	padding-left: 10px;
+	color: #510fad;
+	font-weight: bold;
+	margin: 15px;
 }
 
 h1 {
@@ -83,24 +94,32 @@ h1 {
 }
 
 .moto {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
 	border-left: 2px solid #510fad;
 	padding: 10px;
+	margin: 20px;
+	text-align: left;
 }
 
 
 .about {
+	display: flex;
+	flex-wrap: wrap;
 	background-color: #510fad;
 	color: #fff
+
 }
 
 .contacts {
 	display: flex;
 	flex-wrap: wrap;
 
-.footer-menu ul li a {
-	text-decoration: none;
-	display: inline-block;
-	color: grey;
+.footer-menu {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
 }
 
 .social-media {
