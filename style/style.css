@@ -1,0 +1,115 @@
+body {
+	background-color: #ede9e0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.wrapper {
+	width: 1024px;
+	margin: auto;
+}
+
+.container {
+	width: 940px;
+	margin: auto;
+}
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	width: 940px;
+	margin: auto;
+
+}
+
+.header-img {
+	display: flex;
+	align-items: flex-start;
+	margin: 0;
+	padding: 0;
+
+}
+
+.logo-image {
+	display: flex;
+	align-items: flex-start;
+	padding: 5px;
+}
+
+.main-moto {
+	display: flex;
+	align-items: flex-end;
+	width: 550px;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.logo {
+	flex-basis: 101px;
+}
+
+.nav-main {
+	display: flex;
+	flex-grow: 1;
+	
+
+}
+
+.nav-main__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+	text-decoration: none;
+}
+
+.nav-main__item {
+	padding: 0 10px;
+	
+}
+
+.phone {
+	display: flex;
+	padding-left: 15px;
+}
+
+h1 {
+	font-size: 38px;
+}
+
+.moto {
+	border-left: 2px solid #510fad;
+	padding: 10px;
+}
+
+
+.about {
+	background-color: #510fad;
+	color: #fff
+}
+
+.contacts {
+	text-align: left;
+}
+
+.footer-menu ul li a {
+	text-decoration: none;
+	display: inline-block;
+	color: grey;
+}
+
+.social-media {
+	background-color: #510fad;
+	color: #fff
+}
+
+.breed {
+	width: 40px;
+	display: inline-block;
+	box-sizing: border-box;
+}
