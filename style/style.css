@@ -101,6 +101,10 @@ h1 {
 	padding: 10px;
 	margin: 20px;
 	text-align: left;
+	color: grey;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 2px;
 }
 
 
@@ -112,9 +116,26 @@ h1 {
 
 }
 
+.about-header {
+	display: flex;
+	align-content: center;
+}
+
+.about-jpg {
+	display: flex;
+	align-content: flex-start;
+}
+
+.advantages {
+	display: flex;
+	align-content: flex-end;
+}
+
 .contacts {
 	display: flex;
 	flex-wrap: wrap;
+
+}
 
 .footer-menu {
 	display: flex;
