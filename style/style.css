@@ -2,13 +2,16 @@
 
 
 body {
+	background-image: url(images/dog.png);
 	background-color: #ede9e0;
 	text-align: center;
 	vertical-align: middle;
 	font-family: Roboto;
+
 }
 
 .wrapper {
+
 	width: 1024px;
 	margin: auto;
 }
@@ -95,11 +98,17 @@ h1 {
 
 .moto {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.small-moto {
+	display: flex;
 	flex-wrap: wrap;
 	align-content: flex-start;
 	border-left: 2px solid #510fad;
 	padding: 10px;
-	margin: 20px;
+	margin: 10px;
 	text-align: left;
 	color: grey;
 	font-weight: bold;
