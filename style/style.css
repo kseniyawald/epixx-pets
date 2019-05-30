@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');*/
 
 
 body {	
+	margin: 0;
 	background-color: #ede9e0;
-	text-align: center;
-	vertical-align: middle;
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 }
 
 h2 {
@@ -15,7 +14,8 @@ h2 {
 .wrapper {
 	width: 1024px;
 	margin: auto;
-	background-image: url(images/dog.png);
+	background-image: url(../images/dog.png);
+	background-repeat: no-repeat;
 }
 
 .container {
@@ -99,13 +99,14 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	
 }
 
 .small-moto {
 	display: flex;
 	flex-wrap: wrap;
 	align-content: flex-start;
-	border-left: 2px solid #510fad;
+	
 	padding: 10px;
 	margin: 10px;
 	text-align: left;
@@ -113,29 +114,28 @@ h1 {
 	font-weight: bold;
 	font-size: 12px;
 	letter-spacing: 2px;
+	border-height: 12px;
 }
 
 
 .about {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #510fad;
+	background-image: url(../images/backround_shape.svg);
+	margin: 20px;
 	color: #fff
 }
 
 .about-header {
-	display: flex;
-	align-content: center;
+	
 }
 
 .about-jpg {
-	display: flex;
-	align-content: flex-start;
+	
 }
 
 .advantages {
-	display: flex;
-	align-content: flex-end;
+	в
 }
 
 .contacts {
