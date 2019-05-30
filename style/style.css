@@ -98,16 +98,16 @@ h1 {
 .moto {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	
+	padding: 100px 0px 100px 350px;
+	margin: auto;
 }
 
 .small-moto {
 	display: flex;
 	flex-wrap: wrap;
 	align-content: flex-start;
-	
-	padding: 10px;
+	border-left: 2px #510fad solid;
+	padding: 10px ;
 	margin: 10px;
 	text-align: left;
 	color: grey;
