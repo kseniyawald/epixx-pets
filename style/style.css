@@ -23,8 +23,7 @@ h2 {
 	margin: auto;	
 }
 
-.header {
-	
+.header {	
 	display: flex;
 	flex-wrap: wrap;
 	width: 940px;
@@ -65,7 +64,7 @@ a {
 
 .nav-main__list {
 	list-style: none;
-	margin: 10;
+	
 	padding: 0;
 	display: flex;
 	justify-content: flex-end;
@@ -85,6 +84,13 @@ a {
 	margin: 15px;
 }
 
+.promo {
+	display: flex;
+	min-height: 500px;
+	justify-content: flex-end;
+	align-items: center;
+}
+
 h1 {
 	font-size: 42px;
 }
@@ -92,22 +98,20 @@ h1 {
 .moto {
 	display: flex;
 	flex-direction: column;
-	padding: 70px 0px 100px 350px;
-	margin: auto;
+	padding-right: 100px;
+	
 }
 
 .main-moto {
 	display: flex;
 	align-items: flex-start;
-	width: 550px;
-	text-align: left;
-	padding: 20px;
-	font-weight: bold;
+	width: 500px;
+	text-align: left;	
+	font-weight: 900;
 }
 
 .small-moto {	
 	border-left: 2px #510fad solid;
-	padding: 10px ;
 	margin: 10px;
 	text-align: left;
 	color: grey;
@@ -155,9 +159,10 @@ h1 {
 }
 
 .breed {
-	width: 340px;
-	display: inline-block;
-	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	width: 350px;
+	
 }
 
 .our-breeds {
@@ -165,8 +170,7 @@ h1 {
 	flex-wrap: wrap;
 	flex-direction: row;
 	
-	align-content: center;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .menu-link {
