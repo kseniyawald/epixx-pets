@@ -98,13 +98,11 @@ h1 {
 .moto {
 	display: flex;
 	flex-direction: column;
-	padding-right: 100px;
-	
+	padding-right: 150px;	
 }
 
 .main-moto {
-	display: flex;
-	align-items: flex-start;
+	display: flex;	
 	width: 500px;
 	text-align: left;	
 	font-weight: 900;
@@ -112,21 +110,41 @@ h1 {
 
 .small-moto {	
 	border-left: 2px #510fad solid;
-	margin: 10px;
 	text-align: left;
 	color: grey;
 	font-weight: bold;
+	line-height: 1em;
+	padding: 0 10px;
 	font-size: 12px;
 	letter-spacing: 2px;	
 }
 
 
 .about {
+	position: relative;
 	display: flex;
 	flex-wrap: wrap;
+	background-color: #510fad;
+	margin: 80px 0;
+	color: #fff;
+
+}
+
+.about-block {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section.about:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: -80px;
+	height: 80px;
+	width: 100%;
 	background-image: url(../images/backround_shape.svg);
-	margin: 10px;
-	color: #fff
+	background-position: 0 0;
+	background-repeat: no-repeat;
 }
 
 .about-header {
@@ -168,9 +186,9 @@ h1 {
 .our-breeds {
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
 	
-	justify-content: space-around;
+	
+	
 }
 
 .menu-link {
