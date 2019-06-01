@@ -148,7 +148,11 @@ section.about:before {
 }
 
 .about-header {
-	
+	margin: auto;
+}
+
+.about-header-small {
+	width: 50px;
 }
 
 .about-jpg {
