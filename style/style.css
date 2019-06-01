@@ -1,5 +1,54 @@
 /*@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');*/
 
+/* roboto-regular - cyrillic_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/roboto-v19-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v19-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v19-cyrillic_latin-regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+/* fira-sans-regular - cyrillic_latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/fira-sans-v9-cyrillic_latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'),
+       url('../fonts/fira-sans-v9-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/fira-sans-v9-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/fira-sans-v9-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/fira-sans-v9-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/fira-sans-v9-cyrillic_latin-regular.svg#FiraSans') format('svg'); /* Legacy iOS */
+}
+/* fira-sans-600 - cyrillic_latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/fira-sans-v9-cyrillic_latin-600.eot'); /* IE9 Compat Modes */
+  src: local('Fira Sans SemiBold'), local('FiraSans-SemiBold'),
+       url('../fonts/fira-sans-v9-cyrillic_latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/fira-sans-v9-cyrillic_latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/fira-sans-v9-cyrillic_latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/fira-sans-v9-cyrillic_latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/fira-sans-v9-cyrillic_latin-600.svg#FiraSans') format('svg'); /* Legacy iOS */
+}
+/* fira-sans-700 - cyrillic_latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/fira-sans-v9-cyrillic_latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'),
+       url('../fonts/fira-sans-v9-cyrillic_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/fira-sans-v9-cyrillic_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/fira-sans-v9-cyrillic_latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/fira-sans-v9-cyrillic_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/fira-sans-v9-cyrillic_latin-700.svg#FiraSans') format('svg'); /* Legacy iOS */
+}
 
 body {	
 	margin: 0;
@@ -8,7 +57,9 @@ body {
 }
 
 h2 {
-	text-align: center;
+	text-align: left;
+	font-size: 30px;
+	letter-spacing: 2px;
 }
 
 .wrapper {
@@ -122,12 +173,17 @@ h1 {
 
 .about {
 	position: relative;
-	display: flex;
-	flex-wrap: wrap;
 	background-color: #510fad;
 	margin: 80px 0;
 	color: #fff;
+	padding: 20px 0;
 
+}
+
+.link-about {
+	color: #ffec00;
+	font-weight: 2em;
+	margin-top: 30px;
 }
 
 .about-block {
@@ -147,12 +203,36 @@ section.about:before {
 	background-repeat: no-repeat;
 }
 
+.about:after {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: -80px;
+	height: 80px;
+	width: 100%;
+	background-image: url(../images/backround_shape.svg);
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+}
+
+.about-list {
+	line-height: 40px;
+	font-size: 14px;
+	padding-left: 0;
+	padding-top: 50px;
+}
+
 .about-header {
 	margin: auto;
+	width: 350px;
 }
 
 .about-header-small {
 	width: 50px;
+	color: grey;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 30px;
 }
 
 .about-jpg {
@@ -164,15 +244,22 @@ section.about:before {
 }
 
 .contacts {
+	padding: 50px;
+}
+
+.row {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 20px;
 }
 
 .footer-menu {
 	display: flex;	
 	flex-grow: 1;
 	justify-content: flex-end;
+}
+
+.contact-item {
+	flex-basis: 50%;
 }
 
 .social-media {
