@@ -139,8 +139,8 @@ h1 {
 }
 
 h3 {
-	font-size: 12px;
-	color: grey;
+	font-size: 24px;
+	font-weight: medium;
 	font-family: Fira sans;
 }
 
@@ -234,7 +234,7 @@ section.about:before {
 }
 
 .about-icon {
-	background-image: url(http://www.picshare.ru/uploads/190602/4037bWsMcV.png)
+	background-image: url(http://www.picshare.ru/uploads/190602/css-sprites.png)
 	no-repeat  -10px -10px;
 	width: 20px;
 	height: 14px;
@@ -243,6 +243,7 @@ section.about:before {
 
 .breeds-title {
 	text-align: center;
+	margin: 10px;
 }
 
 .about-jpg {
@@ -289,9 +290,12 @@ section.about:before {
 .our-breeds {
 	display: flex;
 	flex-wrap: wrap;
+	margin: 100px;	
 	
-	
-	
+}
+
+.breeds {
+
 }
 
 .footer {
@@ -300,12 +304,13 @@ section.about:before {
 }
 
 .menu-link {
-	padding: 20px;
+
+
 }
 
 .footer-menu_list {
 	list-style: none;
-	margin: 40;
+	margin: 40px;
 	padding: 10px;
 	display: flex;
 	justify-content: flex-start;
