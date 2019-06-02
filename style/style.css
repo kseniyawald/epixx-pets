@@ -248,7 +248,7 @@ section.about:before {
 
 .breeds-title {
 	text-align: center;
-	margin: 10px;
+	margin-top: 10px;
 }
 
 .about-jpg {
@@ -257,6 +257,35 @@ section.about:before {
 
 .advantages {
 	padding-left: 20px;
+}
+
+.reviews {
+	background-image: url(../images/“.png);
+	background-repeat: no-repeat;
+}
+
+.review {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 55px;
+}
+
+.reviews-title {
+	text-align: center;
+}
+
+.review-text {
+	width: 450px;
+}
+
+.review-time {
+	font-style: italic;
+	color: grey;
+	font-weight: bold;
+}
+
+.review-text {
+	line-height: 30px;
 }
 
 .contacts {
@@ -279,7 +308,8 @@ section.about:before {
 }
 
 .social-media {
-	background-color: #510fad;
+	background-image: url(../images/backgroun_pattern.png);
+	background-repeat: no-repeat;
 	color: #fff
 }
 
@@ -295,7 +325,7 @@ section.about:before {
 .our-breeds {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 100px;	
+	margin: 40px;	
 	
 }
 
@@ -318,7 +348,9 @@ section.about:before {
 	margin: 40px;
 	
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: flex-start;
+
 	text-decoration: none;
 	font-weight: bold;
 	color: grey;
