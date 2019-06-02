@@ -149,6 +149,11 @@ h4 {
 	font-size: 14px;
 }
 
+.review-caption {
+	margin-left: 48%;
+	margin-top: 0;
+}
+
 .moto {
 	display: flex;
 	flex-direction: column;
