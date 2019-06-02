@@ -167,7 +167,7 @@ h1 {
 	background-color: #510fad;
 	margin: 80px 0;
 	color: #fff;
-	padding: 20px 0;
+	padding: 80px 0;
 
 }
 
@@ -231,7 +231,7 @@ section.about:before {
 }
 
 .advantages {
-	в
+	padding-left: 20px;
 }
 
 .contacts {
