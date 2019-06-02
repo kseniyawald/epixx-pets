@@ -329,6 +329,40 @@ section.about:before {
 	padding-left: 40px;
 }
 
+.social-icon-vk {
+	background: url(../images/css_sprites.png)
+	no-repeat  -10px -262px;
+	width: 26px; 
+	height: 26px;
+	display: block;
+	padding: 5px;
+}
+
+.social-icon-fb {
+	background: url(../images/css_sprites.png)
+	no-repeat  -10px -78px;
+	width: 26px; 
+	height: 26px;
+	display: block;
+	padding: 5px;
+}
+
+.social-icon-inst {
+	background: url(../images/css_sprites.png)
+	no-repeat  -10px -170px;
+	width: 26px; 
+	height: 26px;
+	display: block;
+	padding: 5px;
+}
+
+.social-nets-light {
+	display: flex;
+	padding: 0 15px;
+	margin-left: 25px;
+}
+
+
 .breed {
 	display: flex;
 	flex-wrap: wrap;
@@ -337,6 +371,7 @@ section.about:before {
 	padding: 30px;
 	
 }
+
 
 .our-breeds {
 	display: flex;
