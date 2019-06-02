@@ -305,7 +305,7 @@ section.about:before {
 .footer-menu {
 	display: flex;	
 	flex-grow: 1;
-	justify-content: flex-end;
+	justify-content: flex-start;
 }
 
 .contact-item {
@@ -315,7 +315,18 @@ section.about:before {
 .social-media {
 	background-image: url(../images/backgroun_pattern.png);
 	background-repeat: no-repeat;
-	color: #fff
+	color: #fff;
+}
+
+.social-title {
+	padding-top: 120px;
+	padding-left: 40px;
+}
+
+.social-text {
+	width: 450px;
+	line-height: 30px;
+	padding-left: 40px;
 }
 
 .breed {
@@ -344,23 +355,20 @@ section.about:before {
 }
 
 .menu-link {
-	padding: 20px;
+	padding: 0 10px;
 
 }
 
 .footer-menu_list {
 	list-style: none;
 	margin: 40px;
-	
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
-
 	text-decoration: none;
 	font-weight: bold;
 	color: grey;
 }
 
 footer {
-	padding: 15px;
+	padding: 0 15px;
 }
