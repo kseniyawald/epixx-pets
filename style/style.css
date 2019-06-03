@@ -356,12 +356,41 @@ section.about:before {
 	padding: 5px;
 }
 
+.vk-dark {
+	display: block;
+	padding: 5px;
+	background: url(../images/css_sprites.png) -10px -304px;
+	width: 26px; 
+	height: 26px;
+}
+
+.fb-dark {
+	display: block;
+	padding: 5px;
+	background: url(../images/css_sprites.png) -10px -120px;
+	width: 26px; 
+	height: 26px;
+}
+
+.inst-dark {
+	display: block;
+	padding: 5px;
+	background: url(../images/css_sprites.png) -10px -210px;
+	width: 26px; 
+	height: 26px;
+}
+
 .social-nets-light {
 	display: flex;
 	padding: 0 15px;
 	margin-left: 25px;
 }
 
+.social-nets-dark {
+	display: flex;
+	padding: 0 15px;
+	margin-left: 25px;
+}
 
 .breed {
 	display: flex;
