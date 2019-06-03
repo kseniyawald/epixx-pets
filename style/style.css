@@ -291,11 +291,21 @@ section.about:before {
 
 }
 
+article {
+	display: flex;
+	flex-wrap: wrap;
+	width: 250px;
+	flex-direction: row;
+	align-self: flex-end;
+	margin-right: 1px;
+}
+
 .about-jpg {
 	border-radius: 55%;
 	padding-left: 40px;
 	padding-top: 30px;
 	padding-right: 30px;
+	box-shadow: 10px 10px 5px black;
 }
 
 .advantages {
@@ -367,6 +377,7 @@ section.about:before {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
+	padding: 10px;
 }
 
 .social-title {
