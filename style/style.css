@@ -152,6 +152,13 @@ h4 {
 .review-caption {
 	margin-left: 48%;
 	margin-top: 0;
+	font-style: italic;
+	font-weight: bold;
+	color: grey;
+}
+
+.caption-link {
+	color: #510fad;
 }
 
 .moto {
@@ -249,6 +256,8 @@ section.about:before {
 	width: 20px;
 	height: 14px;
 	display: block;
+	margin-top: 33px;
+	margin-left: 20px;
 }
 
 .breeds-title {
@@ -257,7 +266,10 @@ section.about:before {
 }
 
 .about-jpg {
-	
+	border-radius: 55%;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-right: 30px;
 }
 
 .advantages {
@@ -293,6 +305,11 @@ section.about:before {
 	line-height: 30px;
 }
 
+.review-img {
+	padding-left: 20px;
+	padding-bottom: 35px;
+}
+
 .contacts {
 	padding: 50px;
 }
@@ -316,6 +333,9 @@ section.about:before {
 	background-image: url(../images/backgroun_pattern.png);
 	background-repeat: no-repeat;
 	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
 }
 
 .social-title {
@@ -388,13 +408,13 @@ section.about:before {
 
 .social-nets-dark {
 	display: flex;
+	flex-wrap: wrap;
 	padding: 0 15px;
-	margin-left: 25px;
+	justify-content: flex-start;
 }
 
 .breed {
 	display: flex;
-	flex-wrap: wrap;
 	margin: auto;
 	width: 350px;
 	padding: 30px;
@@ -409,13 +429,24 @@ section.about:before {
 	
 }
 
-.breeds {
+.about-video {
+	display: flex;
+	flex-wrap: wrap;
+}
 
+.breeds {
+	padding-top: 100px;
+	padding-bottom: 50px;
 }
 
 .footer {
 	display: flex;
 	justify-content: flex-start;
+}
+
+.footer-menu {
+	border-top: 2px solid grey;
+	margin: 15px;
 }
 
 .menu-link {
