@@ -481,7 +481,7 @@ article {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 15px;
-	justify-content: flex-start;
+	align-items: center;
 }
 
 .breed {
@@ -524,10 +524,13 @@ article {
 .footer {
 	display: flex;
 	justify-content: flex-start;
+	border-top: 2px solid grey;
+	width: 940px;
+	margin: 0 auto;
 }
 
 .footer-menu {
-	border-top: 2px solid grey;
+	
 	margin: 15px;
 }
 
@@ -538,7 +541,8 @@ article {
 
 .footer-menu_list {
 	list-style: none;
-	margin: 40px;
+	margin: 20px 0;
+	padding: 0;
 	display: flex;
 	flex-wrap: wrap;
 	text-decoration: none;
