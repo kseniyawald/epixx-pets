@@ -282,6 +282,9 @@ section.about:before {
 
 .breed-link {
 	color: #510fad;
+	display: inline-block;
+	margin-top: 15px;
+	width: 100%;
 }
 
 .breed-block {
@@ -290,12 +293,19 @@ section.about:before {
 }
 
 .img-round {
-	border-radius: 100px;
+	width: 140px;
+	min-width: 140px;
+	flex-basis: 140px;
+	height: 140px;
+	border-radius: 50%;
 	overflow: hidden;
+
 }
 
 .breed-text-block {
-	width: 350px;
+	flex-basis: 63%;
+	flex-grow: 1;
+	padding-left: 20px;
 }
 
 .breed-arrow {
@@ -314,7 +324,7 @@ article {
 	width: 250px;
 	flex-direction: row;
 	align-self: flex-end;
-	margin-right: 1px;
+
 }
 
 .about-jpg {
@@ -475,19 +485,29 @@ article {
 }
 
 .breed {
-	display: flex;
-	margin: auto;
-	flex-wrap: wrap;
-	width: 350px;
-	padding: 30px;
+	box-sizing: border-box;
 	
+	width: 50%;
+
+	
+}
+
+.breed-info {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.breed-title {
+	flex-basis: 100%;
+	width: 100%;
 }
 
 
 .our-breeds {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 40px;	
+	width: 940px;
+	margin: 0 auto;
 	
 }
 
