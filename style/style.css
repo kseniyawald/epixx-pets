@@ -305,7 +305,12 @@ article {
 	padding-left: 40px;
 	padding-top: 30px;
 	padding-right: 30px;
-	box-shadow: 10px 10px 5px black;
+	
+}
+
+.about img {
+	border-radius: 10px;
+	 box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .advantages {
