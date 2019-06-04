@@ -306,6 +306,9 @@ section.about:before {
 	flex-basis: 63%;
 	flex-grow: 1;
 	padding-left: 20px;
+	color: #333;
+	line-height: 32px;
+
 }
 
 .breed-arrow {
@@ -527,16 +530,21 @@ article {
 	border-top: 2px solid grey;
 	width: 940px;
 	margin: 0 auto;
-}
 
-.footer-menu {
-	
-	margin: 15px;
 }
 
 .menu-link {
-	padding: 0 10px;
+	color: #333;
+}
 
+.footer-menu {
+	color: grey;
+	margin: 15px;
+}
+
+li {
+	padding: 10px;
+	color: grey;
 }
 
 .footer-menu_list {
@@ -547,7 +555,7 @@ article {
 	flex-wrap: wrap;
 	text-decoration: none;
 	font-weight: bold;
-	color: grey;
+	
 }
 
 footer {
