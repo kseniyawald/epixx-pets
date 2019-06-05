@@ -47,11 +47,13 @@ body {
 	font-family: Roboto, sans-serif;
 }
 
+
 h2 {
 	text-align: left;
 	font-size: 30px;
 	letter-spacing: 2px;
 }
+
 
 .wrapper {
 	width: 1024px;
@@ -59,6 +61,7 @@ h2 {
 	background-image: url(../images/dog.png);
 	background-repeat: no-repeat;
 }
+
 
 .container {
 	width: 940px;
@@ -72,6 +75,7 @@ h2 {
 	margin: auto;
 }
 
+
 .header-img {
 	display: flex;
 	align-items: flex-start;
@@ -79,6 +83,7 @@ h2 {
 	margin: 0;
 	padding: 0;
 }
+
 
 .logo-image {
 	display: flex;
@@ -93,10 +98,12 @@ a {
 	color: #000;
 }
 
+
 .logo {	
 	flex-basis: 101px;
 	margin: 0px;
 }
+
 
 .nav-main {
 	display: flex;	
@@ -104,9 +111,9 @@ a {
 	justify-content: flex-end;
 }
 
+
 .nav-main__list {
 	list-style: none;
-	
 	padding: 0;
 	display: flex;
 	justify-content: flex-end;
@@ -114,9 +121,11 @@ a {
 	font-weight: bold;
 }
 
+
 .nav-main__item {
 	padding: 0 10px;	
 }
+
 
 .phone {
 	display: flex;
@@ -126,6 +135,7 @@ a {
 	margin: 15px;
 }
 
+
 .promo {
 	display: flex;
 	min-height: 500px;
@@ -133,10 +143,11 @@ a {
 	align-items: center;
 }
 
+
 h1 {
 	font-size: 42px;
-	
 }
+
 
 h3 {
 	font-size: 24px;
@@ -145,21 +156,25 @@ h3 {
 }
 
 
+
 h4 {
 	font-size: 14px;
 }
 
+
 .review-caption {
 	margin-left: 48%;
-	margin-top: 0;
+	padding-top: 20px;
 	font-style: italic;
 	font-weight: bold;
 	color: grey;
 }
 
+
 .caption-link {
 	color: #510fad;
 }
+
 
 .moto {
 	display: flex;
@@ -167,12 +182,14 @@ h4 {
 	padding-right: 150px;	
 }
 
+
 .main-moto {
 	display: flex;	
 	width: 500px;
 	text-align: left;	
 	font-weight: 900;
 }
+
 
 .small-moto {	
 	border-left: 2px #510fad solid;
@@ -192,14 +209,15 @@ h4 {
 	margin: 80px 0;
 	color: #fff;
 	padding: 80px 0;
-
 }
+
 
 .link-about {
 	color: #ffec00;
 	font-weight: 2em;
 	margin-top: 30px;
 }
+
 
 .about-block {
 	display: flex;
@@ -208,6 +226,7 @@ h4 {
 	margin: 0 auto;
 	padding-top: 30px;
 }
+
 
 section.about:before {
 	content: "";
@@ -221,6 +240,7 @@ section.about:before {
 	background-repeat: no-repeat;
 }
 
+
 .about:after {
 	content: "";
 	display: block;
@@ -233,6 +253,7 @@ section.about:before {
 	background-repeat: no-repeat;
 }
 
+
 .about-list {
 	line-height: 40px;
 	font-size: 14px;
@@ -240,10 +261,12 @@ section.about:before {
 	padding-top: 5px;
 }
 
+
 .about-header {
 	margin: auto;
 	width: 350px;
 }
+
 
 .about-header-small {
 	width: 50px;
@@ -252,6 +275,7 @@ section.about:before {
 	font-size: 14px;
 	line-height: 30px;
 }
+
 
 .about-icon {
 	background: url(../images/css_sprites.png)
@@ -262,6 +286,7 @@ section.about:before {
 	margin-top: 33px;
 	margin-left: 20px;
 }
+
 
 
 /*.blog-arrow {
@@ -275,10 +300,13 @@ section.about:before {
 
 }*/
 
+
 .breeds-title {
 	text-align: center;
 	margin-top: 10px;
+	padding-bottom: 30px;
 }
+
 
 .breed-link {
 	color: #510fad;
@@ -287,10 +315,12 @@ section.about:before {
 	width: 100%;
 }
 
+
 .breed-block {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 
 .img-round {
 	width: 140px;
@@ -299,8 +329,8 @@ section.about:before {
 	height: 140px;
 	border-radius: 50%;
 	overflow: hidden;
-
 }
+
 
 .breed-text-block {
 	flex-basis: 63%;
@@ -308,8 +338,8 @@ section.about:before {
 	padding-left: 20px;
 	color: #333;
 	line-height: 32px;
-
 }
+
 
 .breed-link:after {
 	background: url(../images/css_sprites.png)
@@ -320,9 +350,8 @@ section.about:before {
 	display: inline-block;
 	margin-top: 5px;
 	margin-left: 10px;
-	
-
 }
+
 
 article {
 	display: flex;
@@ -330,22 +359,26 @@ article {
 	width: 250px;
 	flex-direction: row;
 	align-self: flex-end;
-
 }
+
+
 
 .about-jpg {
 	border-radius: 55%;
 	margin-right: 30px;
 }
 
+
 .about img {
 	border-radius: 10px;
-	 box-shadow: -13px -9px 30px #333;
+	box-shadow: -13px -9px 30px #333;
 }
+
 
 .advantages {
 	padding-left: 20px;
 }
+
 
 .reviews {
 	background-image: url(../images/“.png);
@@ -353,24 +386,30 @@ article {
 	margin-bottom: 100px;
 }
 
+
 .review {
 	display: flex;
 	flex-wrap: wrap;
 	padding-top: 55px;
 }
 
+
 .link-blog {
 	color: #510fad;
 }
+
  
 .reviews-title {
 	flex-basis: 100%;
 	width: 100%;
+	text-align: center;
 }
+
 
 .review-text {
 	width: 450px;
 }
+
 
 .review-time {
 	font-style: italic;
@@ -378,23 +417,30 @@ article {
 	font-weight: bold;
 }
 
+
 .review-text {
 	line-height: 30px;
+	padding-right: 20px;
 }
 
+
 .review-img {
-	padding-left: 20px;
-	padding-bottom: 35px;
+	box-shadow: -7px -5px 30px grey;
+	border-radius: 10px;
+	overflow: hidden;
 }
+
 
 .contacts {
 	padding: 50px;
 }
 
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 
 .footer-menu {
 	display: flex;	
@@ -402,9 +448,11 @@ article {
 	justify-content: flex-start;
 }
 
+
 .contact-item {
 	flex-basis: 50%;
 }
+
 
 .social-media {
 	background-image: url(../images/backgroun_pattern.png);
@@ -416,6 +464,7 @@ article {
 	padding: 10px;
 }
 
+
 .social-title {
 	padding-top: 120px;
 	padding-left: 40px;
@@ -423,11 +472,13 @@ article {
 	width: 100%;
 }
 
+
 .social-text {
 	width: 450px;
 	line-height: 30px;
 	padding-left: 40px;
 }
+
 
 .social-icon-vk {
 	background: url(../images/css_sprites.png)
@@ -438,6 +489,7 @@ article {
 	padding: 5px;
 }
 
+
 .social-icon-fb {
 	background: url(../images/css_sprites.png)
 	no-repeat  -10px -78px;
@@ -446,6 +498,7 @@ article {
 	display: block;
 	padding: 5px;
 }
+
 
 .social-icon-inst {
 	background: url(../images/css_sprites.png)
@@ -456,6 +509,7 @@ article {
 	padding: 5px;
 }
 
+
 .vk-dark {
 	display: block;
 	padding: 5px;
@@ -463,6 +517,7 @@ article {
 	width: 26px; 
 	height: 26px;
 }
+
 
 .fb-dark {
 	display: block;
@@ -472,6 +527,7 @@ article {
 	height: 26px;
 }
 
+
 .inst-dark {
 	display: block;
 	padding: 5px;
@@ -480,11 +536,13 @@ article {
 	height: 26px;
 }
 
+
 .social-nets-light {
 	display: flex;
 	padding: 0 15px;
 	margin-left: 25px;
 }
+
 
 .social-nets-dark {
 	display: flex;
@@ -493,18 +551,19 @@ article {
 	align-items: center;
 }
 
-.breed {
-	box-sizing: border-box;
-	
-	width: 50%;
 
-	
+.breed {
+	box-sizing: border-box;	
+	width: 50%;	
 }
+
+
 
 .breed-info {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 
 .breed-title {
 	flex-basis: 100%;
@@ -512,23 +571,26 @@ article {
 }
 
 
+
 .our-breeds {
 	display: flex;
 	flex-wrap: wrap;
 	width: 940px;
 	margin: 0 auto;
-	
 }
+
 
 .about-video {
 	display: flex;
 	flex-wrap: wrap;
 }
 
+
 .breeds {
 	padding-top: 100px;
-	padding-bottom: 50px;
+	padding-bottom: 150px;
 }
+
 
 .footer {
 	display: flex;
@@ -536,22 +598,25 @@ article {
 	border-top: 2px solid grey;
 	width: 940px;
 	margin: 0 auto;
-
 }
+
 
 .menu-link {
 	color: #333;
 }
+
 
 .footer-menu {
 	color: grey;
 	margin: 15px;
 }
 
+
 li {
 	padding-right: 20px;
 	color: grey;
 }
+
 
 .footer-menu_list {
 	list-style: none;
@@ -561,8 +626,9 @@ li {
 	flex-wrap: wrap;
 	text-decoration: none;
 	font-weight: bold;
-	
 }
+
+
 
 footer {
 	padding: 0 15px;
