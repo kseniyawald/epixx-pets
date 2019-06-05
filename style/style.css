@@ -354,14 +354,20 @@ section.about:before {
 
 
 article {
-	display: flex;
-	flex-wrap: wrap;
-	width: 250px;
-	flex-direction: row;
-	align-self: flex-end;
+	width: 20%;
+	box-sizing: border-box;
+	padding: 10px;	
 }
 
+.articles {
+	display: flex;
+	box-sizing: border-box;
+}
 
+.article-block {
+	display: flex;
+	box-sizing: border-box;
+}
 
 .about-jpg {
 	border-radius: 55%;
@@ -396,8 +402,20 @@ article {
 
 .link-blog {
 	color: #510fad;
+	padding-left: 10px;
 }
 
+
+.link-blog:after {
+	content: "";
+	background: url(../images/css_sprites.png)
+	no-repeat  -10px -44px;
+	width: 20px;
+	height: 14px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 10px;
+}
  
 .reviews-title {
 	flex-basis: 100%;
@@ -453,15 +471,20 @@ article {
 	flex-basis: 50%;
 }
 
+.sm-text {
+	padding-top: -50px;
+	color: #fff;
+}
 
 .social-media {
 	background-image: url(../images/backgroun_pattern.png);
 	background-repeat: no-repeat;
-	color: #fff;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	padding: 10px;
+	
 }
 
 
@@ -591,6 +614,29 @@ article {
 	padding-bottom: 150px;
 }
 
+.blog-item {
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+.img-blog {
+	height: 300px;
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	width: 220px;
+	box-shadow: -2px -2px 20px 2px #333;
+}
+
+.blog-text {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 10px;
+	line-height: 30px;
+}
 
 .footer {
 	display: flex;
