@@ -54,6 +54,10 @@ h2 {
 	letter-spacing: 2px;
 }
 
+a {
+	font-family: Fira sans-serif medium;
+	font-weight: bold;
+}
 
 .wrapper {
 	width: 1024px;
@@ -425,6 +429,7 @@ article {
 
 
 .review-text {
+	padding-left: 10px;
 	width: 450px;
 }
 
@@ -652,8 +657,7 @@ article {
 }
 
 
-.footer-menu {
-	color: grey;
+.footer-menu {	
 	margin: 15px;
 }
 
