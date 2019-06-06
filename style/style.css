@@ -50,6 +50,11 @@ body {
 }
 
 
+h1, h2, h3 {
+	color: #202020;
+}
+
+
 h2 {
 	text-align: left;
 	font-size: 30px;
@@ -57,7 +62,7 @@ h2 {
 }
 
 a {
-	font-family: Fira sans-serif medium;
+	font-family: "Fira Sans", sans-serif, medium;
 	font-weight: bold;
 }
 
@@ -130,6 +135,7 @@ a {
 
 .nav-main__item {
 	padding: 0 10px;	
+	color: #737274;
 }
 
 
@@ -158,13 +164,15 @@ h1 {
 h3 {
 	font-size: 24px;
 	font-weight: medium;
-	font-family: Fira sans;
+	font-family: Fira Sans, sans-serif;
 }
 
 
 
 h4 {
 	font-size: 14px;
+	font-weight: bold;
+	color: #737274;
 }
 
 
@@ -200,7 +208,7 @@ h4 {
 .small-moto {	
 	border-left: 2px #510fad solid;
 	text-align: left;
-	color: grey;
+	color: #737274;
 	font-weight: bold;
 	line-height: 1em;
 	padding: 0 10px;
@@ -265,18 +273,25 @@ section.about:before {
 	font-size: 14px;
 	padding-left: 0;
 	padding-top: 5px;
+	
 }
 
+.about-li {
+	color: #fff;
+}
 
 .about-header {
 	margin: auto;
 	width: 350px;
 }
 
+.about-title {
+	color: #fff;
+}
 
 .about-header-small {
 	width: 50px;
-	color: grey;
+	color: #b8adc8;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 30px;
@@ -342,10 +357,17 @@ section.about:before {
 	flex-basis: 63%;
 	flex-grow: 1;
 	padding-left: 20px;
-	color: #333;
+	color: #737274;
 	line-height: 32px;
 }
 
+
+.review-text-block {
+	font-family: Roboto, sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #202020;
+}
 
 .breed-link:after {
 	background: url(../images/css_sprites.png)
@@ -500,6 +522,7 @@ article {
 	padding-left: 40px;
 	flex-basis: 100%;
 	width: 100%;
+	color: #fff;
 }
 
 
@@ -507,6 +530,7 @@ article {
 	width: 450px;
 	line-height: 30px;
 	padding-left: 40px;
+	color: #b8adc8;
 }
 
 
@@ -643,7 +667,10 @@ article {
 	flex-wrap: wrap;
 	padding-left: 10px;
 	line-height: 30px;
+	font-weight: 700;
+	color: #202020;
 }
+
 
 .footer {
 	display: flex;
@@ -655,7 +682,7 @@ article {
 
 
 .menu-link {
-	color: #333;
+	color: #737274;
 }
 
 
@@ -666,7 +693,6 @@ article {
 
 li {
 	padding-right: 20px;
-	color: grey;
 }
 
 
@@ -678,6 +704,8 @@ li {
 	flex-wrap: wrap;
 	text-decoration: none;
 	font-weight: bold;
+
+	
 }
 
 
